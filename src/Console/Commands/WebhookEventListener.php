@@ -6,7 +6,7 @@ use Carbon\Carbon;
 use Illuminate\Console\Command;
 use Illuminate\Http\Request;
 use Laravel\Cashier\Http\Controllers\WebhookController;
-use function Laravel\Prompts\{info, select};
+use function Laravel\Prompts\{info};
 
 class WebhookEventListener extends Command
 {

@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 use Laravel\Cashier\Http\Controllers\WebhookController;
 use function Laravel\Prompts\{info, select};
 
-class Replay extends Command
+class WebhookEventReplay extends Command
 {
     /**
      * The name and signature of the console command.
